@@ -8,7 +8,7 @@ pipeline {
        stage('Clone Repository') {
            steps {
                // Clone the repository
-               git branch: 'DevOps', url: 'https://github.com/rajan-shukla/node-todo-cicd'
+               git branch: 'master', url: 'https://github.com/rajan-shukla/node-todo-cicd'
            }
        }
        stage('Build Docker Image') {
