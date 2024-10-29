@@ -6,7 +6,7 @@ pipeline {
    }
    stages {
        stage('Clone Repository') {
-           steps  {
+           steps {
                // Clone the repository
                git branch: 'master', url: 'https://github.com/rajan-shukla/node-todo-cicd'
            }
